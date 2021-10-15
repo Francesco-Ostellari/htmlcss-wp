@@ -18,14 +18,25 @@ body {
   height: 130px;
   margin: 30px auto 0;
   background: #E579E6;
+  position: relative;
 }
 
+.heading img {
+  height: 70px;
+  margin-bottom: 37px;
+}
 .jumbotron {
   width: 80%;
   height: 500px;
   margin: 30px auto 0;
   background:#E1D67A;
 }
+
+.link {
+  text-decoration: none;
+  
+}
+
 /*  /header */
 
 /* layoout main */
