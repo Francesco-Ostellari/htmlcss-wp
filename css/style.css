@@ -28,12 +28,6 @@ body {
   border-right: 1px solid #D7D7D7;
   padding-right: 15px;
 }
-.jumbotron {
-  width: 80%;
-  height: 500px;
-  margin: 30px auto 0;
-  background:#E1D67A;
-}
 
 .link {
   text-decoration: none;
@@ -46,6 +40,16 @@ body {
 }
 
 /*  /header */
+
+/* jumbotron */
+.jumbotron {
+  width: 80%;
+  height: 570px;
+  margin: 30px auto 0;
+  background:#E1D67A;
+  background-image: url('../img/banner.jpg');
+}
+/* /jumbotron */
 
 /* layoout main */
 main {
