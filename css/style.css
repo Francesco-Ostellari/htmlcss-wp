@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* header and navigation */
+/* header */
 body {
   font-size: 100%;
 }
@@ -20,13 +20,13 @@ body {
   background: #E579E6;
 }
 
-.navigation {
+.jumbotron {
   width: 80%;
   height: 500px;
   margin: 30px auto 0;
   background:#E1D67A;
 }
-/* end header and navigation */
+/*  /header */
 
 /* layoout main */
 main {
