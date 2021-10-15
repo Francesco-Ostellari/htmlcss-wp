@@ -44,10 +44,12 @@ body {
 /* jumbotron */
 .jumbotron {
   width: 80%;
-  height: 570px;
+  height: 450px;
   margin: 30px auto 0;
-  background:#E1D67A;
   background-image: url('../img/banner.jpg');
+  border-radius: 10px;
+  background-position: center;
+  filter: brightness(80%);
 }
 /* /jumbotron */
 
