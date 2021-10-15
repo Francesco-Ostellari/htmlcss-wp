@@ -25,6 +25,8 @@ body {
 .heading img {
   height: 70px;
   margin-bottom: 37px;
+  border-right: 1px solid #D7D7D7;
+  padding-right: 15px;
 }
 .jumbotron {
   width: 80%;
