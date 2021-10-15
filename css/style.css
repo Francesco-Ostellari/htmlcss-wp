@@ -101,24 +101,51 @@ h2 {
 .left-column, 
 .right-column {
   width: 21.5%;
-  height: 430px;
-  background: #ABCFE7;
+  height: 470px;
   margin: 20px 0 20px 0;
 }
-.img {
-  background-image: url(../img/img-1.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  height: 30%;
-}
+
 .centre-column {
   width: calc(57% - 20px);
-  height: 430px;
-  background: #ABCFE7;
+  height: 470px;
   margin: 20px 10px;
+  
 }
 
+.img {
+  height: 40%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
 
+}
+
+#img-left {
+  background-image: url(../img/img-1.jpg);
+}
+#img-centre {
+  background-image: url(../img/banner-2.jpg);
+}
+#img-right {
+  background-image: url(../img/img-3.jpg);
+}
+
+.background {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.column-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.paragraph {
+  color: #ADADAD;
+}
 [class*="-column"] {
    float: left;  
 }
@@ -129,7 +156,7 @@ h2 {
 .footer {
   width: 80%;
   height: 60px;
-  margin: 30px auto 30px;
+  margin: 10px auto 30px;
   background: #8801FE;
 }
 /* end layout footer */
