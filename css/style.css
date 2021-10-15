@@ -60,7 +60,9 @@ body {
  width: 560px;
  font-size: 13px;
  color: white;
- font-weight: 100;
+}
+h1 {
+  font-weight: 300;
 }
 
 .trasparenza p {
