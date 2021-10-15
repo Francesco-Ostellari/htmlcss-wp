@@ -102,13 +102,13 @@ h2 {
 .right-column {
   width: 21.5%;
   height: 470px;
-  margin: 20px 0 20px 0;
+  margin: 20px 0 0 0;
 }
 
 .centre-column {
   width: calc(57% - 20px);
   height: 470px;
-  margin: 20px 10px;
+  margin: 20px 10px 0 10px;
   
 }
 
@@ -156,7 +156,14 @@ h2 {
 .footer {
   width: 80%;
   height: 60px;
-  margin: 10px auto 30px;
-  background: #8801FE;
+  margin: 0 auto 30px;
+}
+
+#footer {
+  text-align: center;
+  color: #ADADAD;
+}
+.heart {
+  color: red;
 }
 /* end layout footer */
