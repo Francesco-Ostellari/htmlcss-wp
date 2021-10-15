@@ -103,19 +103,17 @@ h2 {
 .left-column, 
 .right-column {
   width: 21.5%;
-  height: 470px;
   margin: 20px 0 0 0;
 }
 
 .centre-column {
   width: calc(57% - 20px);
-  height: 470px;
   margin: 20px 10px 0 10px;
   
 }
 
 .img {
-  height: 40%;
+  height: 180px;
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
